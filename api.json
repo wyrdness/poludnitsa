@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/poludnitsa",
     "maintainers": [
       {
@@ -18,69 +18,118 @@
   },
   "phenomenon": {
     "id": "poludnitsa",
-    "name": "Poludnitsa - The Noon Demon",
-    "aliases": [],
-    "category": "OF_FIELD_DEMONS",
-    "subcategory": "Unknown",
+    "name": "Poludnitsa",
+    "aliases": [
+      { "name": "Lady Midday", "language": "English (calque)" },
+      { "name": "Noonwraith", "language": "English (calque)" },
+      { "name": "Noon witch", "language": "English (calque)" },
+      { "name": "Полудница", "language": "Russian" },
+      { "name": "Полудниця", "language": "Ukrainian" },
+      { "name": "Południca", "language": "Polish" },
+      { "name": "Polednice", "language": "Czech" },
+      { "name": "Poludnica", "language": "Slovak / South Slavic" },
+      { "name": "Pscipolnitsa", "language": "Wendish (Sorbian)", "region": "Lusatia" }
+    ],
+    "category": "ENTITY_SPIRIT",
+    "subcategory": "Field demon / agricultural spirit (Slavic)",
     "tags": [
-      "in-slavic-folk-tradition).-moscow",
-      "1997."
+      "slavic-folklore",
+      "field-spirit",
+      "noon",
+      "agricultural",
+      "heatstroke",
+      "nature-spirit",
+      "demonic",
+      "europe"
     ],
     "status": "documented",
     "description": {
-      "summary": "The poludnitsa appears as either a beautiful young woman in white or a haggard old crone, both forms equally dangerous.",
-      "full": "The poludnitsa appears as either a beautiful young woman in white or a haggard old crone, both forms equally dangerous. She approaches field workers around noon, engaging them in complex questions or forcing them to dance until they collapse from heat exhaustion. Those who fail to answer her riddles correctly or who dare to work during midday may be struck with madness, severe illness, or death. This entity represents an ancient cultural memory encoded in folklore: the very real danger of heatstroke during agricultural work in hot climates. The poludnitsa served as a supernatural enforcer of practical health wisdom—take shelter during the hottest hours."
+      "summary": "A noon-time demon of Slavic folklore, said to roam the boundaries of grain fields at the height of summer heat. She tests workers with riddles, demands they dance, and afflicts those who fail with heatstroke, madness, or death. Personifies the very real danger of midday sun for agricultural labor.",
+      "full": "Poludnitsa (Russian Полудница; from polden / poluden, 'midday') is a female demon of Slavic folklore associated with the dangerous hours around noon during the height of summer. She appears in slightly different forms across the Slavic world — as Polednice in Czech, Południca in Polish, Pscipolnitsa among the Sorbs of Lusatia, and Полудниця in Ukrainian. She is typically described as a young woman in white roaming the boundaries of grain fields, though regional variants depict her variously as an old hag, a whirlwind of dust, or a young girl. In her hands are a scythe, sickle, or shears, and in some northern Russian traditions a giant frying pan. She approaches workers in the fields at the hottest part of the day, asks them difficult questions or riddles, or compels them to dance. Those who fail her tests, or who simply continue working through the noon hour, are said to be afflicted with heatstroke ('aches in the neck'), madness, or death — including, in some versions, decapitation by her sickle. As a personification of midday sun-stroke, the figure encoded a practical health rule: stop work and rest in the shade during the hottest hours. Poludnitsa is also invoked as a guardian of crops: in certain accounts she protects the grain during flowering and punishes those who damage fields. She is celebrated in 19th- and 20th-century Slavic literature, most famously in K. J. Erben's ballad 'Polednice' (1853) and Antonín Dvořák's symphonic poem of the same name (Op. 108, 1896)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "From Common Slavic poludĭne / poluden ('half-day, midday'), with the feminine personal suffix -nitsa.",
+      "meaning": "'Lady (or spirit) of midday'; the demon of the noon hour.",
+      "first_use": "Pre-Christian Slavic; documented in 19th-century Slavic folklore studies."
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "OF_FIELD_DEMONS",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "ENTITY_SPIRIT",
+      "type": "Nature / field demon",
+      "subtype": "Noon-time spirit",
+      "variant": "Slavic"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "rusalka", "name": "Rusalka", "relationship": "related", "description": "Slavic water-spirit, similarly female and dangerous, attached to a different element and time of day" },
+      { "id": "vila", "name": "Vila / Wila", "relationship": "related", "description": "Female nature spirit of South Slavic folklore" },
+      { "id": "siesta-demon", "name": "Mediterranean midday demon (daemon meridianus)", "relationship": "similar", "description": "Latin / Christian 'noonday demon' of Psalm 91:6, sharing the noon-time peril motif" },
+      { "id": "kornmuhme", "name": "Kornmuhme / Roggenmutter", "relationship": "similar", "description": "Germanic field spirits; analogous agricultural female figures" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["white (canonical dress)", "pale skin", "blonde hair (some Russian accounts)"],
+      "features": [
+        { "feature": "Young woman in white", "description": "Most widespread depiction: a tall, slim young woman in a long white dress, walking the field bounds", "frequency": "common" },
+        { "feature": "Old hag form", "description": "Alternative form as a haggard old woman with rotting skin", "frequency": "occasional" },
+        { "feature": "Whirlwind of dust", "description": "In some Russian accounts she appears as a small, hot dust-devil moving over the field", "frequency": "occasional" },
+        { "feature": "Carries a sickle, scythe, or shears", "description": "Her standard implement for punishing those who fail her riddles", "frequency": "common" },
+        { "feature": "Giant frying pan (northern Russian)", "description": "In northern Russian traditions she is described carrying a great heated frying pan, scorching grain or workers", "frequency": "rare" }
+      ],
+      "morphology": "Anthropomorphic and shapeshifting; oscillates between young, beautiful, and aged forms across the Slavic regions."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Inflict heatstroke and 'neck-ache'", "description": "Strikes those who continue field work in the noon heat with severe heat-related illness", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Compel dance", "description": "Forces a girl who lies down in the field to dance with her until evening, often to exhaustion or death", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Pose riddles or hard questions", "description": "Tests workers with riddles or theological questions; failure brings sickness or death", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Decapitate with sickle", "description": "In some variants she beheads those who answer wrongly or who hide", "frequency": "rare", "evidence_level": "folklore" },
+      { "ability": "Steal or threaten children", "description": "Variants record her snatching unattended children left at the field edge", "frequency": "occasional", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "diurnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["grain fields at harvest", "field margins", "country roads", "wheat and rye fields in summer"],
+      "diet": "Not described as feeding",
+      "patterns": [
+        "Active only at midday during the hot months",
+        "Approaches workers from the field bounds",
+        "Most active during the rye and wheat flowering and harvest seasons"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Slavic folklore across Eastern, Central, and parts of Southern Europe — Russia, Ukraine, Belarus, Poland, Czechia, Slovakia, Lusatia (Sorbs), and parts of the South Slavic regions.",
+      "continents": ["Europe"],
+      "countries": ["Russia", "Ukraine", "Belarus", "Poland", "Czechia", "Slovakia", "Germany (Sorbian Lusatia)", "Slovenia", "Serbia", "Bulgaria"],
+      "regions": ["Eastern Europe", "Central Europe", "Slavic-speaking Lusatia"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-Christian Slavic",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Reconstructed from 19th-century Slavic folklore collection; the figure is consistently attested across the Slavic-speaking world"
+      },
+      "seasonal_patterns": "Active during the high-summer harvest, especially during rye and wheat flowering."
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Pre-Christian Slavic agricultural religion. Poludnitsa belongs to a system of nature spirits tied to specific times of day and seasons, including the rusalka (water, spring/early summer) and the leshy (forest).",
+      "earliest_accounts": "Reconstructed from 19th-century folklore collection across Slavic countries. There is no single early text; the figure is attested in oral tradition across the Slavic world.",
+      "folklore_connections": "Linked to the broader Indo-European 'noonday demon' motif (compare daemon meridianus of Psalm 91:6) and to other Slavic field spirits (rusalka, vila, leshy)."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "Pre-Christian", "event": "Slavic communities identify Poludnitsa as the demon of the noon hour during high summer", "significance": "Cultural baseline", "source": "Slavic oral tradition (later reconstructed)" },
+      { "date": "1853", "event": "Karel Jaromír Erben publishes 'Polednice' in 'Kytice', a ballad in which Polednice comes for a misbehaving child", "significance": "Definitive Czech literary treatment that fixed the figure in modern Slavic culture", "source": "Erben, K. J. (1853), 'Kytice'" },
+      { "date": "1896", "event": "Antonín Dvořák composes 'Polednice' / 'The Noon Witch', symphonic poem Op. 108, B. 196, premiered November 1896 in London", "significance": "Major orchestral setting of the figure", "source": "Burghauser, J., Dvořák thematic catalogue" },
+      { "date": "20th century", "event": "Documented across Slavic folklore by Russian, Polish, Czech, and Sorbian folklorists (e.g. V. Ya. Propp, K. Moszyński, P. Nedo)", "significance": "Establishes the figure in modern academic folklore", "source": "Slavic folkloristics" },
+      { "date": "2015-05-19", "event": "Release of the video game 'The Witcher 3: Wild Hunt' (CD Projekt Red), which features the Noonwraith / Polednice as a major monster type", "significance": "Modern global popularization of the figure", "source": "CD Projekt Red release records" }
+    ],
+    "modern_era": "Poludnitsa retains cultural visibility primarily through Erben's ballad, Dvořák's symphonic poem, Czech and Polish school literature, and modern fantasy media — most notably Andrzej Sapkowski's Witcher novels and CD Projekt Red's video games, which lift the figure directly from Slavic folklore."
   },
   "sightings": {
     "statistics": {
@@ -97,30 +146,110 @@
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "poludnitsa-evidence-erben",
+        "type": "literary work",
+        "name": "K. J. Erben, 'Polednice' (1853)",
+        "date": "1853",
+        "description": "Czech ballad in which the Noon Witch arrives at a peasant cottage to take a misbehaving child, summoned by an exasperated mother.",
+        "status": "verified",
+        "analysis": "Definitive 19th-century literary treatment that codifies the figure for modern audiences.",
+        "source": "Erben, K. J. (1853), 'Kytice z pověstí národních'"
+      },
+      {
+        "id": "poludnitsa-evidence-dvorak",
+        "type": "musical work",
+        "name": "Antonín Dvořák, 'Polednice' / 'The Noon Witch', Op. 108",
+        "date": "1896",
+        "description": "Symphonic poem based on Erben's ballad, premiered in London in November 1896.",
+        "status": "verified",
+        "source": "Burghauser, J., Antonín Dvořák thematic catalogue"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Real noon-time spirit",
+        "description": "Traditional interpretation: Poludnitsa is a real demonic or spirit being who patrols the fields at midday and punishes transgressors.",
+        "proponents": ["Slavic folk religion"],
+        "evidence_cited": ["Consistent oral tradition across the Slavic world", "Reported encounters during the harvest"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Personification of heatstroke and agricultural risk",
+        "description": "Folkloric and historical scholarship reads Poludnitsa as a cultural personification of the very real danger of midday sun-stroke during summer harvest, encoding a practical rule (rest at noon) in a memorable supernatural figure. The motif of a child being abducted by Poludnitsa also serves to keep children away from harvesting machinery and animals.",
+        "proponents": ["Slavic folklorists (e.g. V. Ya. Propp; Kazimierz Moszyński)", "Modern folkloric scholarship"],
+        "evidence_cited": ["Tight correspondence between the figure's appearance and the highest-risk summer hours", "Use of the figure as a child-discipline device", "Consistency with other 'noonday demon' motifs across Eurasia"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "East Slavic harvest spirits (rusalka, leshy, polevoy)",
+        "West Slavic and Sorbian field demons",
+        "Indo-European 'noonday demon' tradition"
+      ],
+      "stories": [
+        "Erben's 'Polednice': a tired mother threatens her crying child with the Noon Witch, who arrives and the child dies in her grasp by the time the father returns",
+        "Numerous folktales of farmers losing time, sanity, or life to a beautiful stranger who appears in the field at noon"
+      ],
+      "beliefs": "Stop work, take shelter, and rest from roughly 11 a.m. to 2 p.m. in summer; do not leave children unattended at the field's edge."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "K. J. Erben, 'Polednice' in 'Kytice' (1853)",
+        "Andrzej Sapkowski, The Witcher novels (Polednice as 'Południca')"
+      ],
+      "film_tv": [
+        "Czech film 'Kytice' (2000), dir. F. A. Brabec, dramatizing Erben including 'Polednice'"
+      ],
+      "games": [
+        "The Witcher 3: Wild Hunt (CD Projekt Red, 2015) — Noonwraith / Polednice as a monster type",
+        "The Witcher: Monster Slayer (2021)"
+      ],
+      "music": [
+        "Antonín Dvořák, 'Polednice' / 'The Noon Witch', Op. 108 (1896)"
+      ],
+      "other": [
+        "Featured on Czech and Slovak postage stamps and folkloric illustrations"
+      ]
     }
   },
   "research": {
     "researchers": [],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Studied within Slavic folkloristics, comparative mythology, and the history of Czech and Polish literature."
   },
-  "sources": []
+  "sources": [
+    {
+      "id": "wikipedia-lady-midday",
+      "type": "website",
+      "title": "Lady Midday",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Lady_Midday",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "britannica-poludnitsa",
+      "type": "website",
+      "title": "Poludnitsa",
+      "publication": "Encyclopedia Britannica",
+      "url": "https://www.britannica.com/topic/poludnitsa",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "erben-1853",
+      "type": "book",
+      "title": "Kytice z pověstí národních",
+      "authors": ["Karel Jaromír Erben"],
+      "publication": "Prague",
+      "date": "1853"
+    }
+  ]
 }
